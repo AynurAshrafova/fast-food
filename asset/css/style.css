@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+width: 150px;
+}
+.carousel-inner img {
+    height: 550px;
+    /* object-fit: cover; */
+}
+main{
+    background-image: url(../img/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.main1{
+    padding-top: 70px;
+    margin-left: 70px;
+}
+.col-md-7 img{
+    width: 600px;
+    height: 397px;
+}
+.col-md-7 img :hover{
+    background-image: url(../img/fastfoodrestaurant2.jpg);
+
+}
+.card-body h5{
+    font-family: 'Original Surfer', cursive;
+color:#cc9900 ;
+ font-size: 30px;
+ text-align: center;
+}
+.card-body img{
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    }
+.card-text{
+    font-family: 'Original Surfer', cursive;
+    color:gray;
+    text-align: center;
+}
+footer{
+    background-color: black;
+   
+}
+#row{
+    padding: 100px;
+}
+#row img{
+    width: 300px;
+    height: 40px;
+}
+/* footer article{
+display: flex;
+justify-content: space-between;
+} */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
